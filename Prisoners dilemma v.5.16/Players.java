@@ -2,8 +2,8 @@
 /**
  * Write a description of class Players here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @Russell Zhang
+ * @5.30
  */
 import java.util.Scanner;
  public class Players{
@@ -19,7 +19,7 @@ import java.util.Scanner;
             System.out.println("Enter your choice (C for cooperate, D for defect)");
             String humanChoice =  sc.nextLine();
             char humanStrategy = humanChoice.charAt(0);
-            
+            char 
         }
         
         
