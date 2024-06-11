@@ -20,20 +20,22 @@ import java.util.Scanner;
             String humanChoice =  sc.nextLine();	//Read user's choice
             char humanStrategy = humanChoice.charAt(0);	//Preventing incorrect input
             char robotStrategy
-				if (round == 1)	{
-				robotChoice = 'C'
-					}
-			
-				
-			
-        }
-        
-        
-
- 
-   
-    
-    
+		if (round == 1)	{
+			robotChoice = 'C';
+	    }else{
+			robotChoice = humanChoice;
+					 }
+        	
+        	System.out.println("Human chose:" + humanChoice);
+		System.out.println("Robot chose:" + robotChoice);
+		System.out.println("Scores:Human = " + humanScore + ", Robot = " + robotScore)
+		String winner
+			if (humanScore > robotScore){
+ 				winner = "Human";
+		}else{	
+   			winner = "Robot"
+    		System.out.println("Game over!Winner: "+winner);
+    		
     
 }
 }
